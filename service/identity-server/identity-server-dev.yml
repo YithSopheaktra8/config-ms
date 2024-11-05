@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5169/oauth2
+    username: oauth2
+    password: oauth2
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
